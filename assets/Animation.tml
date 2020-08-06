@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<animations>
+    <sequence id="boss_idle" framecount="6" speed="100" width="250" height= "300">
+        <frame textureID="boss_idle1"/>
+        <frame textureID="boss_idle2"/>
+        <frame textureID="boss_idle3"/>
+        <frame textureID="boss_idle4"/>
+        <frame textureID="boss_idle5"/>
+        <frame textureID="boss_idle6"/>
+    </sequence>
+
+    <sequence id="boss_attack" framecount="5" speed="100" width="250" height= "300">
+        <frame textureID="boss_attack1"/>
+        <frame textureID="boss_attack2"/>
+        <frame textureID="boss_attack3"/>
+        <frame textureID="boss_attack4"/>
+        <frame textureID="boss_attack5"/>
+    </sequence>
+</animations>

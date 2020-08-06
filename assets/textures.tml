@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<textures>
+    <texture id="player" source="assets/minotaur.png"/>
+    <texture id="dwarf" source="assets/dwarf.png"/>
+    <texture id="background" source="assets/images/bg1.jpg"/>
+    <texture id="background1" source="assets/images/bg.jpg"/>
+
+</textures>
