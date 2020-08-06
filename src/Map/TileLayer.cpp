@@ -3,7 +3,6 @@
 
 TileLayer::TileLayer(int tilesize, int colcount, int rowcount, TileMap tilemap, TileSetList tilesets):
     m_TileSize(tilesize), m_ColCount(colcount), m_RowCount(rowcount), m_Tilemap(tilemap), m_Tilesets(tilesets) {
-//    cout << tilemap[0].size() << endl;
     for(unsigned int i = 0; i < m_Tilesets.size(); i++) {
         TextureManager::GetInstance()->Load(m_Tilesets[i].Name, "assets/maps/" + m_Tilesets[i].Source);
     }

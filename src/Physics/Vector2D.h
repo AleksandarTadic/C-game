@@ -12,11 +12,9 @@ class Vector2D {
         Vector2D(float x=0, float y=0):X(x), Y(y) {}
 
     public:
-        //  addition +
         inline Vector2D operator+(const Vector2D& v2) const {
             return Vector2D(X + v2.X, Y + v2.Y);
         }
-        //  difference =
         inline Vector2D operator-(const Vector2D& v2) const {
             return Vector2D(X - v2.X, Y - v2.Y);
         }

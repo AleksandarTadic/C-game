@@ -12,7 +12,6 @@
 
 
 Engine* Engine::s_Instance = nullptr;
-//Warrior* player = nullptr;
 
 bool Engine::Init(){
     if(SDL_Init(SDL_INIT_VIDEO)!=0 && IMG_Init(IMG_INIT_JPG | IMG_INIT_PNG)!=0) {

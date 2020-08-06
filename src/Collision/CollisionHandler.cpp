@@ -3,13 +3,6 @@
 
 CollisionHandler* CollisionHandler::s_Instance = nullptr;
 
-void CollisionHandler::SetCollisionMap(TileMap tilemap, int tilesize){
-    m_CollisionTilemap = tilemap;
-    m_TileSize = tilesize;
-    m_RowCount = tilemap.size();
-    m_ColCount = tilemap[0].size();
-}
-
 bool CollisionHandler::CheckCollision(SDL_Rect a, SDL_Rect b){
     bool x_overlaps = (a.x < b.x + b.w) && (a.x + a.w > b.x);
     bool y_overlaps = (a.y < b.y + b.h) && (a.y + a.h > b.y);
@@ -29,6 +22,7 @@ bool CollisionHandler::MapCollision(SDL_Rect a){
 
     int top_tile = a.y/m_TileSize;
     int bottom_tile = (a.y + a.h)/m_TileSize;
+
     if(left_tile < 0) {
         left_tile = 0;
     }

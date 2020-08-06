@@ -29,7 +29,6 @@ bool Input::GetKeyDown(SDL_Scancode key){
         return true;
     }
     return false;
-//    return (m_KeyStates[key] == 1);
 }
 
 void Input::KeyUp(){

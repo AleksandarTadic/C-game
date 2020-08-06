@@ -17,8 +17,6 @@ class CollisionHandler{
         int GetColCount(){return m_ColCount;}
         int GetTileSize(){return m_TileSize;}
 
-        void SetCollisionMap(TileMap tilemap, int tilesize);
-
     private:
         CollisionHandler(){};
         TileMap m_CollisionTilemap;
