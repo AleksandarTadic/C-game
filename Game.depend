@@ -12,7 +12,7 @@
 	"GameObject.h"
 	"MapParser.h"
 
-1596737632 source:c:\users\aleksandar\desktop\game\src\core\engine.cpp
+1596848294 source:c:\users\aleksandar\desktop\game\src\core\engine.cpp
 	"Engine.h"
 	"TextureManager.h"
 	"Input.h"
@@ -394,7 +394,7 @@
 1595633886 c:\users\aleksandar\desktop\game\src\physics\transform.h
 	"Vector2D.h"
 
-1596316514 c:\users\aleksandar\desktop\game\src\characters\warrior.h
+1596740771 c:\users\aleksandar\desktop\game\src\characters\warrior.h
 	<iostream>
 	"Character.h"
 	"RigidBody.h"
@@ -415,7 +415,7 @@
 
 1595543790 c:\users\aleksandar\desktop\game\src\object\iobject.h
 
-1596737525 source:c:\users\aleksandar\desktop\game\src\characters\warrior.cpp
+1596846836 source:c:\users\aleksandar\desktop\game\src\characters\warrior.cpp
 	"Warrior.h"
 	"TextureManager.h"
 	"SDL.h"
@@ -434,7 +434,7 @@
 1595991300 c:\users\aleksandar\desktop\game\src\physics\rigidbody.h
 	"Vector2D.h"
 
-1596050658 source:c:\users\aleksandar\desktop\game\src\inputs\input.cpp
+1596740610 source:c:\users\aleksandar\desktop\game\src\inputs\input.cpp
 	"Input.h"
 	"Engine.h"
 
@@ -447,7 +447,7 @@
 	"Timer.h"
 	"SDL.h"
 
-1596552089 source:c:\users\aleksandar\desktop\game\src\map\tilelayer.cpp
+1596740570 source:c:\users\aleksandar\desktop\game\src\map\tilelayer.cpp
 	"TileLayer.h"
 	"TextureManager.h"
 
@@ -492,10 +492,10 @@
 	"tinyxml.h"
 	<windows.h>
 
-1596513558 source:c:\users\aleksandar\desktop\game\src\map\mapparser.cpp
+1596847687 source:c:\users\aleksandar\desktop\game\src\map\mapparser.cpp
 	"MapParser.h"
 
-1596513499 c:\users\aleksandar\desktop\game\src\map\mapparser.h
+1596847016 c:\users\aleksandar\desktop\game\src\map\mapparser.h
 	<map>
 	<string>
 	"GameMap.h"
@@ -506,7 +506,7 @@
 	<vector>
 	"Layer.h"
 
-1596484793 source:c:\users\aleksandar\desktop\game\src\camera\camera.cpp
+1596740669 source:c:\users\aleksandar\desktop\game\src\camera\camera.cpp
 	"Camera.h"
 
 1596484527 c:\users\aleksandar\desktop\game\src\camera\camera.h
@@ -519,7 +519,7 @@
 	<iostream>
 	<string>
 
-1596655741 source:c:\users\aleksandar\desktop\game\src\collision\collisionhandler.cpp
+1596740740 source:c:\users\aleksandar\desktop\game\src\collision\collisionhandler.cpp
 	"CollisionHandler.h"
 	"Engine.h"
 
@@ -555,13 +555,13 @@
 	"SDL.h"
 	"Animation.h"
 
-1596409122 source:c:\users\aleksandar\desktop\game\src\characters\enemy.cpp
+1596848654 source:c:\users\aleksandar\desktop\game\src\characters\enemy.cpp
 	"Enemy.h"
 	"Camera.h"
 	"CollisionHandler.h"
 	"TextureManager.h"
 
-1596317488 c:\users\aleksandar\desktop\game\src\characters\enemy.h
+1596848564 c:\users\aleksandar\desktop\game\src\characters\enemy.h
 	<iostream>
 	"Character.h"
 	"RigidBody.h"

@@ -9,6 +9,9 @@ bool MapParser::Load() {
     if(!Parse("MAP2", "assets/maps/mapa2.tmx")){
         return false;
     }
+    if(!Parse("MAP3", "assets/maps/mapa3.tmx")){
+        return false;
+    }
     return true;
 }
 
@@ -90,12 +93,28 @@ TileLayer* MapParser::ParseTileLayer(TiXmlElement* xmlLayer, TileSetList tileset
     return (new TileLayer(tilesize, colcount, rowcount, tilemap, tilesets));
 }
 
-void MapParser::Clean() {
+void MapParser::Clean(){
     map<string, GameMap*>::iterator it;
     for(it = m_MapDict.begin(); it != m_MapDict.end(); it++){
         it->second = nullptr;
     }
     m_MapDict.clear();
 }
+
+string MapParser::GetNextMap(){
+    vector <string> MapNames;
+    map<string, GameMap*>::iterator it;
+    for(it = m_MapDict.begin(); it != m_MapDict.end(); it++){
+        MapNames.push_back(it->first);
+    }
+    if(m_MapCounter+1 != MapNames.size()) {
+        m_MapCounter++;
+    } else {
+        m_MapCounter = 0;
+    }
+    return MapNames[m_MapCounter];
+}
+
+
 
 

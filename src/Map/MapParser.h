@@ -15,6 +15,8 @@ class MapParser {
         bool Load();
         void Clean();
 
+        string GetNextMap();
+
         inline GameMap* GetMap(string id){return m_MapDict[id];}
         inline static MapParser* GetInstance(){return s_Instance = (s_Instance != nullptr)? s_Instance : new MapParser();}
     private:
@@ -26,6 +28,7 @@ class MapParser {
         MapParser(){};
         static MapParser* s_Instance;
         map<string, GameMap*> m_MapDict;
+        int m_MapCounter = 0;
 };
 
 #endif // MAPPARSER_H

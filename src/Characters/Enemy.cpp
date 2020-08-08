@@ -44,11 +44,10 @@ void Enemy::Update(float dt){
         m_Transform->Y = m_LastSafePosition.Y;
     }
 
-
     m_Animation->Update(dt);
-
 }
 
 void Enemy::Clean(){
     TextureManager::GetInstance()->Drop(m_TextureID);
 }
+

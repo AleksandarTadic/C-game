@@ -142,7 +142,7 @@ void Warrior::Update(float dt) {
     }
 
     if(m_Origin->X > CollisionHandler::GetInstance()->GetColCount()*CollisionHandler::GetInstance()->GetTileSize()-m_Collider->Get().w && m_Origin->X < CollisionHandler::GetInstance()->GetColCount()*CollisionHandler::GetInstance()->GetTileSize()) {
-        Engine::GetInstance()->LoadMap("MAP");
+        Engine::GetInstance()->LoadMap(MapParser::GetInstance()->GetNextMap());
         m_Transform->X = 30;
         m_Transform->Y = 380;
     }

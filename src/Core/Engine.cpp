@@ -39,8 +39,7 @@ bool Engine::Init(){
 
 //    m_levelMap = MapParser::GetInstance()->GetMap("MAP");
 
-    m_levelMap = MapParser::GetInstance()->GetMap("MAP2");
-
+    m_levelMap = MapParser::GetInstance()->GetMap("MAP");
 
     TextureManager::GetInstance()->ParseTextures("assets/textures.tml");
     /// ili
@@ -48,9 +47,9 @@ bool Engine::Init(){
 //    TextureManager::getInstance()->Load("player", "assets/minotaur.png");
 
     Warrior* player = new Warrior(new Properties("player", 30, 380, 96, 96));
-    Enemy* dwarf = new Enemy(new Properties("dwarf", 620, 300, 38, 30));
+//    Enemy* dwarf = new Enemy(new Properties("dwarf", 400, 300, 38, 30));
     m_GameObjects.push_back(player);
-    m_GameObjects.push_back(dwarf);
+//    m_GameObjects.push_back(dwarf);
 
     Camera::GetInstance()->SetTarget(player->GetOrigin());
     return m_IsRunning = true;
