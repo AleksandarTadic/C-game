@@ -67,11 +67,10 @@ void Warrior::Update(float dt) {
             m_IsRunning = true;
         }
     }
-    /// s
+//    /// s
     if(Input::GetInstance()->GetKeyDown(SDL_SCANCODE_S)) {
         m_RigidBody->UnSetForce();
         m_IsCrouching = true;
-        Warrior::Clean();
     }
     /// Attack
     if(Input::GetInstance()->GetKeyDown(SDL_SCANCODE_K)) {

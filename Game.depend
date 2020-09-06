@@ -12,7 +12,7 @@
 	"GameObject.h"
 	"MapParser.h"
 
-1596848294 source:c:\users\aleksandar\desktop\game\src\core\engine.cpp
+1596848735 source:c:\users\aleksandar\desktop\game\src\core\engine.cpp
 	"Engine.h"
 	"TextureManager.h"
 	"Input.h"
@@ -555,7 +555,7 @@
 	"SDL.h"
 	"Animation.h"
 
-1596848654 source:c:\users\aleksandar\desktop\game\src\characters\enemy.cpp
+1596848759 source:c:\users\aleksandar\desktop\game\src\characters\enemy.cpp
 	"Enemy.h"
 	"Camera.h"
 	"CollisionHandler.h"
